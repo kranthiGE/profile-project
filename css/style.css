@@ -1,0 +1,49 @@
+*{
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+    border: 0px solid red !important;    
+}
+
+body{
+	background: #D6D8E0;
+}
+
+* {
+	font-family: 'Lato', sans-serif;
+	color: #030D2D;
+	font-weight: 300;
+}
+
+.text-thin{
+	
+	font-weight: 100;
+}
+
+.text-grey{
+	color: #BCBBBB;
+}
+
+.text-large{
+	font-size: 50px;
+}
+
+.text-white{
+	color: white;
+}
+
+.top-logo{
+	margin-top: 10px;
+	width : 100px;
+}
+
+/* Wrapper class to set background image with full width*/
+.wrapper {
+  background: url("../images/middleimage.jpg");
+  width: 100%;
+}
