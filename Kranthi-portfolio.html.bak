@@ -2,26 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kranthis Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media-query-styles.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300">
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </head>
 
   <body>
-    <section>
   	<div class="container">
       <!-- Header with a logo & heading-->
       <header>
         <div class="row text-center">
-            <div class="col-md-6">
-              <img src="./images/logo.png" class="img-responsive top-logo left-block logo" alt="portfolio logo" id="imgLogo" data-toggle="modal" data-target="#modalText">
-            </div>
+          <div class="col-md-6"><img src="./images/logo.png" class="img-responsive top-logo left-block" alt="portfolio logo" id="imgLogo" data-toggle="modal" data-target="#modalText"></div>
           <div class="col-md-6 text-right text-uppercase">
               <h1 class="text-thin text-large">Kranthi Kiran</h1>
               <h6>Front-end Developer</h6>
@@ -29,87 +23,63 @@
         </div>
       </header>
 
-        <aside>
       <div class="row text-center">
         <div class="col-md-12">
         	<hr>
         </div>
       </div>
-        </aside>
 
       <!-- Content in the middle-->
-        <main>
-          <article>
+      <section>
         <div class="row text-center wrapper center-block">
           <div class="col-md-4">
               <img src="./images/carphoto.jpg" class="img-responsive center-block" alt="Personal photo">
           </div>
           <div class="col-md-8 text-center text-thin text-white">
-                <h3>
-                  Hello world! I am Kranthi from India working for GE. A decade of IT experience mostly building web applications and worked on all the web tiers. Nice to be part of Udacity to learn this course as front end developer.
+              <h3>Hello world! I am Kranthi from India working for GE. A decade of IT experience mostly building web applications and worked on all the web tiers. Nice to be part of Udacity to learn this course as front end developer.
               </h3>
           </div>
         </div>
-          </article>
+      </section>
 
       <!-- Footer that has featured works & project images-->
       <footer>
-            <section>
         <div class="row">
         	<div class="col-md-12">
             	<h2 class="text-grey">Featured Work</h2>
           </div>
         </div>
         <div class="row text-center">
-                <article>
           <div class="col-md-4">
             <img src="./images/personalprojects.jpg" class="img-responsive" alt="Personal project" data-toggle="modal" data-target="#modalPersonalProjects">
             <h3>Personal projects</h3>
-                    <nav class="nav">
-                      <a href="#" id="perProjLink" data-toggle="modal" data-target="#modalPersonalProjects">Link to project</a>
-                    </nav>
+            <p>
+              <a href="#" id="perProjLink" data-toggle="modal" data-target="#modalPersonalProjects">Link to project</a></p>
           </div>
-                </article>
-                <article>
           <div class="col-md-4">
             <img src="./images/Officialwork.jpg" class="img-responsive" alt="Official work">
             <h3>Official work</h3>
-                    <nav class="nav">
-                      <a href="#">Link to project</a>
-                    </nav>
+            <p><a href="#">Link to project</a></p>
           </div>
-                </article>
-                <article>
           <div class="col-md-4">
             <img src="./images/travel.jpg" class="img-responsive" alt="Leisure time" data-toggle="modal" data-target="#modalTravelPage">
             <h3>Leisure time</h3>
-                    <nav class="nav">
-                      <a href="#" id="travelPageLink" data-toggle="modal" data-target="#modalTravelPage">Link to project</a>
-                    </nav>
+            <p><a href="#" id="travelPageLink" data-toggle="modal" data-target="#modalTravelPage">Link to project</a></p>
           </div>
-                </article>
         </div>
-            </section>
       </footer>
-        </main>
     </div>
-    </section>
-
     <!-- Leasure travel time modal page -->
-    <article>
     <div class="modal fade" id="modalTravelPage" tabindex="-1" role="dialog" aria-labelledby="myModalTravelLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-              <header>
             <h4 class="modal-title" id="myModalTravelLabel">Travel page</h4>
-              </header>
           </div>
           <div class="modal-body">
             <img class="img-responsive" src="images/veggies_small.jpg" alt="Travel & grow my veggies page">
-              <p>
-                During my leisure time, I spend in travelling to nature beauty places and grow my veggies in my corridor & terrace. I also like reading spiritual books and doing yoga & meditation.
-              </p>
+            <p>During my leisure time, I spend in travelling to nature beauty places and grow my veggies in my corridor & terrace.
+              I also like reading spiritual books and doing yoga & meditation.</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -117,23 +87,17 @@
         </div>
       </div>
     </div>
-    </article>
 
     <!-- Personal projects modal page -->
-    <article>
     <div class="modal fade" id="modalPersonalProjects" tabindex="-1" role="dialog" aria-labelledby="myModalPerProjLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-              <header>
             <h4 class="modal-title" id="myModalPerProjLabel">Personal projects page</h4>
-              </header>
           </div>
           <div class="modal-body">
             <img class="img-responsive" src="images/personalprojects_small.jpg" alt="Personal projects page">
-              <p>
-                These are my personal projects that I have built in the year 2008. It was my designer who has created photoshop mockup and I have coded all the web tiers. One was a forum application named www.thedrusya.com and the other one was an online shopping cart for herbal products, www.gloherbals.com
-              </p>
+            <p>These are my personal projects that I have built in the year 2008. It was my designer who has created photoshop mockup and I have coded all the web tiers. One was a forum application named www.thedrusya.com and the other one was an online shopping cart for herbal products, www.gloherbals.com</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -141,23 +105,17 @@
         </div>
       </div>
     </div>
-    </article>
 
     <!-- First Modal Page -->
-    <article>
     <div class="modal fade" id="modalText" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-              <header>
             <h4 class="modal-title" id="myModalLabel">My first modal Page</h4>
-              </header>
           </div>
           <div class="modal-body">
             <img class="img-responsive" src="images/logo.png" alt="Modal logo page">
-              <p>
-                This was my first project in this class. I learned a lot about HTML and CSS.
-              </p>
+            <p>This was my first project in this class. I learned a lot about HTML and CSS.</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -165,6 +123,5 @@
         </div>
       </div>
     </div>
-    </article>
   </body>
 </html>

@@ -1,0 +1,17 @@
+/*
+Media query for logo image and text size.
+There is only 1 breakpoint for low resolution devices
+*/
+@media screen and (max-width: 400px){
+	/*Hides the logo*/
+	.logo{
+		display: none;
+	}
+
+	/*Reduce the size of header text*/
+	.text-large{
+		font-weight: 100;
+		font-size: 25px;
+		max-width: 100%;
+	}
+}
